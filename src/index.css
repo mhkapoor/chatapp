@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: lightblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.login-wrapper{
+  display: flex;
+}
+.google-img{
+  height: 25px ;
+}
+
+.login-btn{
+
+  background: #4285f4;
+  width: 200px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.google-btn{
+  height: 40px;
+}
+
+.sign-out{
+  position: absolute;
+  right: 4%;
+  top: 3%;
+  height: 30px;
+  background: teal;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+

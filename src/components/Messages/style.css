@@ -1,0 +1,45 @@
+.message-input{
+    width: 85%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 23px;
+}
+
+.message-button{
+    height: 108%;
+    width: 13.5%;
+    border: none;
+    background: teal;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* .share-messages:nth-child(even){
+    text-align: right;
+} */
+
+.share-messages {
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: end;
+}
+.coming-message{
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: right;
+}
+.time-message {
+    color: grey;
+    font-size: 10px;
+
+}
+
+.uploadClass{
+    display: none;
+}
+
