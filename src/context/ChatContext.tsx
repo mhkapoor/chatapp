@@ -39,7 +39,7 @@ const ChatContext = ({
           });
 
           var elem: any = document.getElementById("display-message");
-          elem.scrollTo(0, elem.scrollHeight);
+          elem?.scrollTo(0, elem.scrollHeight);
         }
       );
     } catch (error) {
